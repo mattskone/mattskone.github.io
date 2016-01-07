@@ -131,6 +131,12 @@
 .content-section {
   margin: 0 0 3rem;
 
+  @include media-mobile {
+    li.column {
+      width: 100%
+    }
+  }
+
   .resume-item { margin-bottom: 2rem; }
 
   .resume-item-title {
