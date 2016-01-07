@@ -1,0 +1,43 @@
+@media print {
+  html {
+    font-size: 10px;
+  }
+
+  a:link:after, a:visited:after {
+    content: attr(href);
+  }
+
+  a.contact-button {
+    display: none;
+  }
+
+  .page-header .header-name {
+    margin: 1rem 0 .5rem;
+  }
+
+  .page-header .header-email {
+    display: inherit;
+  }
+
+  .page-header .title-bar {
+    padding-bottom: 1rem;
+  }
+
+  .icon-links {
+    text-align: right;
+  }
+
+  .icon-links .icon-link-item {
+    display: block;
+  }
+
+  .icon-links .icon-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .icon {
+    display: none;
+  }
+}
+
