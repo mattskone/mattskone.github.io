@@ -1,6 +1,6 @@
 # Site settings
-title: "matt skone | senior software engineer"
-description: "matt skone | senior software engineer"
+title: "matt skone | principal software engineer"
+description: "matt skone | principal software engineer"
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "matt skone"
-resume_title:                   "senior software engineer"
+resume_title:                   "principal software engineer"
 resume_contact_email:
   "matt.skone@gmail.com"
 
